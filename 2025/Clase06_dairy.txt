@@ -1,0 +1,212 @@
+>> 12
+
+ans =
+
+    12
+
+>> 124.34
+
+ans =
+
+  124.3400
+
+>> "Miguel Alejandro"
+
+ans = 
+
+    "Miguel Alejandro"
+
+>> true
+
+ans =
+
+  logical
+
+   1
+
+>> false
+
+ans =
+
+  logical
+
+   0
+
+>> mes = 12
+
+mes =
+
+    12
+
+>> mes = 8
+
+mes =
+
+     8
+
+>> mes + 2
+
+ans =
+
+    10
+
+>> mes = 0
+
+mes =
+
+     0
+
+>> mes + 2
+
+ans =
+
+     2
+
+>> Constant b = 1
+Unrecognized function or variable 'Constant'.
+ 
+>> pi
+
+ans =
+
+    3.1416
+
+>> lista = 3 4 5 6
+ lista = 3 4 5 6
+           ↑
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or
+other syntax error. To construct matrices, use brackets instead of parentheses.
+ 
+>> lista = [3 4 5 6]
+
+lista =
+
+     3     4     5     6
+
+>> lista + 1
+
+ans =
+
+     4     5     6     7
+
+>> lista[0]
+ lista[0]
+      ↑
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check
+for mismatched delimiters.
+ 
+>> lista(0)
+Array indices must be positive integers or logical values.
+ 
+>> lista(1)
+
+ans =
+
+     3
+
+>> lista(2) + 1
+
+ans =
+
+     5
+
+>> lista
+
+lista =
+
+     3     4     5     6
+
+>>  lista(2) = 6
+
+lista =
+
+     3     6     5     6
+
+>> lista
+
+lista =
+
+     3     6     5     6
+
+>> 3 + 3 * 5
+
+ans =
+
+    18
+
+>> 9 + 1 - 12 + 9
+
+ans =
+
+     7
+
+>> sin(2)
+
+ans =
+
+    0.9093
+
+>> cos(2)
+
+ans =
+
+   -0.4161
+
+>> tan(2)
+
+ans =
+
+   -2.1850
+
+>> input()
+Error using input
+Not enough input arguments.
+ 
+>> a = input()
+Error using input
+Not enough input arguments.
+ 
+>> input("Mensaje: ")
+Mensaje: 3
+
+ans =
+
+     3
+
+>> input("Ingrese las dimensiones del lado del cuadrado: ")
+Ingrese las dimensiones del lado del cuadrado: 2
+
+ans =
+
+     2
+
+>> lado = input("Ingrese lado del cuadrado: ")
+Ingrese lado del cuadrado: 100
+
+lado =
+
+   100
+
+>> print("Hola mundo")
+Error using validateHandleToPrint
+No figure to print.
+
+Error in validate (line 17)
+pj = validateHandleToPrint(pj);
+     ^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in print (line 67)
+pj = validate( pj );
+     ^^^^^^^^^^^^^^
+ 
+>> print "Hola mundo"
+Error using inputcheck
+'"Hola' and 'mundo"' might be file names. Specify only one file name.
+
+Error in print (line 41)
+[pj, devices, options ] = inputcheck( pj, inputargs{:} );
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+>> disp("Hola mundo")
+Hola mundo
+>> disp(lado)
+   100
