@@ -1,0 +1,147 @@
+8 > 2
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   1
+
+2 > 8
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+8 >= 2
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   1
+
+8 >= 8
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   1
+
+8 > 8
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+10 == 10
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   1
+
+8 == 10
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+8 ~= 8
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+8 ~= 2
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   1
+
+a = 2
+
+a =
+
+     2
+
+a > 2
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+2 + 3 > 8 * 5
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+a = 10
+
+a =
+
+    10
+
+b = 5
+
+b =
+
+     5
+
+c = 20
+
+c =
+
+    20
+
+a + b * 2 > c && c / b == 0 || ~(a - b < c /2))
+ a + b * 2 > c && c / b == 0 || ~(a - b < c /2))
+                                               ↑
+{Invalid expression. When calling a function or
+indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+a + b * 2 > c && c / b == 0 || ~(a - b < c /2)
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+((a + b * 2) > c) && ((c / b == 0)) || ~(a - b < c / 2))
+ ((a + b * 2) > c) && ((c / b == 0)) || ~(a - b < c / 2))
+                                                        ↑
+{Invalid expression. When calling a function or
+indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+((a + b * 2) > c) && ((c / b == 0) || ~(a - b < c / 2))
+
+ans =
+
+  <a href="matlab:helpPopup('logical')" style="font-weight:bold">logical</a>
+
+   0
+
+dairy off
+{Unrecognized function or variable
+'dairy'.
+} 
+diary off
