@@ -1,0 +1,43 @@
+contador = contador + 1;
+{Unrecognized function or variable
+'contador'.
+} 
+acumulador = acumulador + 1;
+{Unrecognized function or variable
+'acumulador'.
+} 
+acumulador = 0;
+acumulador = acumulador + 10;
+acumulador = acumulador + 7.5;
+acumulador = acumulador + 57;
+acumulador
+
+acumulador =
+
+   74.5000
+
+Clase19
+     1
+
+     2
+
+     3
+
+     4
+
+     5
+
+     6
+
+     7
+
+     8
+
+     9
+
+    10
+
+Clase19
+    55
+
+diary off
